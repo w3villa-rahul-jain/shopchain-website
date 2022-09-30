@@ -49,9 +49,22 @@ ul {
   padding-bottom: 50px;
 }
 
+.py-30 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .px-20 {
   padding-left: 20px;
   padding-right: 20px;
+}
+
+.pb-20 {
+  padding-bottom: 20px;
+}
+
+.pb-50 {
+  padding-bottom: 50px;
 }
 
 .mt-30 {
@@ -179,7 +192,7 @@ img {
   color: var(--white);
 }
 
- .submit-btn {
+.submit-btn {
   padding: 8px 16px;
   color: white;
   font-weight: 600;
@@ -191,28 +204,23 @@ img {
   border: 1px solid var(--light-red);
 }
 
-
 /* +++++++++++++++++++++++++++++++++++++++
     --------product Section_-----------
     ++++++++++++++++++++++++++++++++++++++ */
 
-
-
-
-.most-popular-dish .popular-dish-card .single-card{
-  
+.most-popular-dish .popular-dish-card .single-card {
   /* border: 1px solid blue; */
   margin: 30px 0px;
   border: 1px solid white;
-  box-shadow: 0 15px 20px rgba(0,0,0,.2);
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
 }
 
-.img-box{
+.img-box {
   height: 200px;
   overflow: hidden;
 }
 
-.most-popular-dish .popular-dish-card .single-card .popular-dish-text{
+.most-popular-dish .popular-dish-card .single-card .popular-dish-text {
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -220,41 +228,55 @@ img {
   align-items: center;
 }
 
-.most-popular-dish .popular-dish-card .single-card .popular-dish-text .card-title{
+.most-popular-dish
+  .popular-dish-card
+  .single-card
+  .popular-dish-text
+  .card-title {
   font-size: 20px;
   /* margin: 10px 0px; */
   font-weight: 600;
 }
 
-.most-popular-dish .popular-dish-card .single-card .popular-dish-text .card-description{
-    font-size: 14px;
-    line-height: 20px;
-    overflow: hidden;
-    height: 65px;
+.most-popular-dish
+  .popular-dish-card
+  .single-card
+  .popular-dish-text
+  .card-description {
+  font-size: 14px;
+  line-height: 20px;
+  overflow: hidden;
+  height: 65px;
 }
-.most-popular-dish .popular-dish-card .single-card .popular-dish-text .price-title{
+.most-popular-dish
+  .popular-dish-card
+  .single-card
+  .popular-dish-text
+  .price-title {
   font-size: 22px;
   font-weight: 700;
   /* text-align: center; */
 }
 
-.most-popular-dish .popular-dish-card .single-card .popular-dish-text .price-title span{
+.most-popular-dish
+  .popular-dish-card
+  .single-card
+  .popular-dish-text
+  .price-title
+  span {
   color: var(--light-red);
 }
-
-
 
 /* +++++++++++++++++++++++++++++++++++++++
     --------about Section_-----------
     ++++++++++++++++++++++++++++++++++++++ */
 
-
-.about-section{
+.about-section {
   display: grid;
-  grid-template-columns: repeat(4,1fr);
+  grid-template-columns: repeat(4, 1fr);
 }
 
-.about-section .common-about{
+.about-section .common-about {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -264,36 +286,33 @@ img {
   position: relative;
 }
 
-.about-section .common-about:hover h2{
+.about-section .common-about:hover h2 {
   font-size: 25px;
 }
 
-
-
-.about-section .common-about h2{
+.about-section .common-about h2 {
   font-size: 22px;
   font-weight: 700;
   color: black;
 }
 
-.about-section .common-about .common-circle{
+.about-section .common-about .common-circle {
   position: absolute;
   height: 150px;
   width: 150px;
   border-radius: 50%;
-  opacity: .2;
+  opacity: 0.2;
 }
 
-.about-section .common-about .left-circle{
+.about-section .common-about .left-circle {
   left: 55px;
-  background: var(--light-red);  
+  background: var(--light-red);
 }
 
-.about-section .common-about .right-circle{
+.about-section .common-about .right-circle {
   right: 55px;
   background: var(--green);
 }
-
 
 /* +++++++++++++++++++++++++++++++++++++++
     --------collection Section_-----------
@@ -333,89 +352,72 @@ img {
   margin-left: 10px;
 }
 
-
-
 /* +++++++++++++++++++++++++++++++++++++++
     --------top dishes  Section_-----------
     ++++++++++++++++++++++++++++++++++++++ */
 
-
-.top-dishes .top-dish-item{
+.top-dishes .top-dish-item {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
 }
 
-
-.top-dishes .top-dish-item .top-dish-image{
+.top-dishes .top-dish-item .top-dish-image {
   border-left: 10px solid var(--light-red);
 }
 
-.top-dishes .top-dish-item .top-dish-text{
+.top-dishes .top-dish-item .top-dish-text {
   border-right: 10px solid var(--light-red);
 }
 
-.top-dishes .top-dish-item .top-dish-image,.top-dish-text{
+.top-dishes .top-dish-item .top-dish-image,
+.top-dish-text {
   padding: 50px;
   border-radius: 50px;
 }
 
-.top-dishes .top-dish-item .top-dish-text h5{
+.top-dishes .top-dish-item .top-dish-text h5 {
   margin: 10px 0px;
   color: var(--light-red);
   font-weight: 600;
   letter-spacing: 1px;
 }
 
-.top-dishes .top-dish-item .top-dish-image img{
-  box-shadow: 0 15px 20px rgba(0,0,0,.2);
+.top-dishes .top-dish-item .top-dish-image img {
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
   border-radius: 20px;
 }
 
-.top-dishes .top-dish-item .top-dish-text .dish-description{
+.top-dishes .top-dish-item .top-dish-text .dish-description {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
-
-.top-dishes .top-dish-item .top-dish-text .dish-description .ingradients h6{
+.top-dishes .top-dish-item .top-dish-text .dish-description .ingradients h6 {
   margin-top: 10px;
   font-size: 18px;
   font-weight: 600;
 }
 
-.top-dishes .top-dish-item .top-dish-text .dish-description .ingradients p{
+.top-dishes .top-dish-item .top-dish-text .dish-description .ingradients p {
   font-size: 15px;
   margin-bottom: 2;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
 }
 
-.top-dishes .top-dish-item .top-dish-text .price{
+.top-dishes .top-dish-item .top-dish-text .price {
   font-size: 25px;
   margin: 15px 0px;
   font-weight: 700;
   color: var(--light-red);
-  text-shadow: 0 15px 20px rgba(255, 0,0,.4);
-
-
+  text-shadow: 0 15px 20px rgba(255, 0, 0, 0.4);
 }
-
-
-
-
-
 
 /* +++++++++++++++++++++++++++++++++++++++
     --------healthy life Section_-----------
     ++++++++++++++++++++++++++++++++++++++ */
 
-
-
-
-
-
-
-.healthy-life{
+.healthy-life {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -443,34 +445,115 @@ img {
 }
 
 /* +++++++++++++++++++++++++++++++++++++++
-    --------footer Section_-----------
+    --------Testimonials Section_-----------
     ++++++++++++++++++++++++++++++++++++++ */
+.testimono .testimonial {
+  color: var(--white);
+}
 
-.footer-bg-image{
-  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
-  background-size: cover;
+.testimono .testimonial .testimonial-item {
+  height: 350px;
+  width: 350px;
+  background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+  background-image: linear-gradient(to top, #cc208e 0%, #6713d2 100%);
+  box-shadow: 0 15px 20px rgba(245, 87, 108, 0.3);
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+/* .testimono .testimonial .testimonial-item-second {
+  height: 380px;
+  width: 380px;
+  border-radius: 50%;
+} */
+
+.testimono .testimonial .testimonial-item h5 {
+  font-size: 25px;
+}
+
+.testimono .testimonial .testimonial-item p {
+  width: 80%;
+  height: 75px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.testimono .testimonial .testimonial-item span {
+  font-size: 35px;
+}
+
+.testimono .testimonial .testimonial-item .testimonial-square {
+  height: 40px;
+  width: 300px;
+  position: absolute;
+  background: white;
+  color: var(--light-red);
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
 
 }
 
-.footer-content .footer-logo{
+.testimono .testimonial .testimonial-item .testimonial-square-top {
+  top: 30px;
+}
+
+.testimono .testimonial .testimonial-item .testimonial-square-bottom {
+  bottom: 30px;
+}
+
+/* +++++++++++++++++++++++++++++++++++++++
+    --------footer Section_-----------
+    ++++++++++++++++++++++++++++++++++++++ */
+
+.footer-bg-image {
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  background-size: cover;
+}
+
+.footer-content .footer-logo {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-content: center;
   align-items: center;
 }
 
-
-.footer-content .footer-logo .footer-line{
+.footer-content .footer-logo .footer-line {
   width: 100%;
   height: 3px;
   background: var(--light-red);
   border-radius: 20px;
 }
 
-.footer-content .footer-logo .footer-logo{
+.footer-content .footer-logo .footer-logo {
   display: flex;
   font-size: 40px;
   font-weight: 800;
   color: var(--light-red);
 }
 
+@media (max-width: 768px) {
+  .about-section {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+
+  .footer-content .footer-logo {
+    grid-template-columns: 1fr;
+  }
+
+  .top-dishes .top-dish-item {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .about-section {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

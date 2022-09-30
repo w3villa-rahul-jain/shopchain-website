@@ -16,10 +16,10 @@ $(document).ready(function () {
           items: 1,
         },
         600: {
-          items: 1,
+          items: 2,
         },
         768: {
-          items: 2,
+          items: 4,
         },
         1000: {
           items: 4,
@@ -44,10 +44,10 @@ $(document).ready(function () {
           items: 1,
         },
         600: {
-          items: 1,
+          items: 3,
         },
         768: {
-          items: 2,
+          items: 4,
         },
         1000: {
           items: 6,
@@ -100,16 +100,47 @@ $(document).ready(function () {
           items: 1,
         },
         600: {
-          items: 1,
+          items: 2,
         },
         768: {
-          items: 2,
+          items: 4,
         },
         1000: {
           items: 4,
         },
       },
     });
+
+
+
+    $(".testimonial-carousel").owlCarousel({
+      loop: true,
+      margin: 20,
+      nav: true,
+      gap: 50,
+      autoplay: false,
+      autoplayTimeout: 1100,
+      dots: false,
+      navText: [
+        $(".owl-navigation .owl-nav-prev"),
+        $(".owl-navigation .owl-nav-next"),
+      ],
+      responsive: {
+        0: {
+          items: 1,
+        },
+        600: {
+          items: 1,
+        },
+        768: {
+          items: 2,
+        },
+        1000: {
+          items: 3,
+        },
+      },
+    });
+  
   
   
     
