@@ -147,7 +147,6 @@ img {
 .navigation .nav-brand {
   color: var(--white);
   font-weight: 700;
-  /* text-shadow: 0 10px 20px black; */
 }
 
 .navigation .nav-linkss {
@@ -207,6 +206,10 @@ img {
   background: transparent;
   border: 2px solid var(--light-red);
   color: var(--white);
+}
+
+.hero-section .hero-text .search-bar .search-input::placeholder{
+  color: white;
 }
 
 .submit-btn {
@@ -631,11 +634,15 @@ img {
   }
 
   .navigation .nav-linkss{
-    padding: 8px 16px;
+    padding: 8px 0px;
     font-size: 22px;
-    font-weight: 600;
     color: white;
     
+  }
+  .navigation .register {
+    font-size: 25px;
+    gap: 5px;
+    flex-direction: column;
   }
 
   .navigation .toggle-btn{
