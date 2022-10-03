@@ -537,6 +537,60 @@ img {
   color: var(--light-red);
 }
 
+.footer-content .footer-links{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.footer-content .footer-links .footer-privacy{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-content .footer-links .footer-privacy a{
+  color: black;
+}
+
+.footer-content .footer-links .footer-privacy a:hover{
+  color: var(--light-red);
+}
+
+
+.footer-content .footer-links .footer-privacy .footer-social{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  font-size: 30px;
+  color: var(--light-red);
+}
+
+.footer-content .footer-links .footer-privacy .vertical-line{
+  width: 5px;
+  background: var(--light-red);
+  height: 130px;
+  margin-top: 20px;
+  position: relative;
+  left: 50%;
+  border-radius: 20px;
+  /* justify-content: center; */
+}
+
+.footer-content .footer-links .footer-privacy .newsletter{
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 10px 0px;
+}
+
+.fa-fire, .fa-address-book{
+  font-size: 30px;
+  color: var(--light-red);
+  margin-bottom: 10px;
+}
+
+
+
+
 @media (max-width: 768px) {
   .about-section {
     grid-template-columns: repeat(2, 1fr);
