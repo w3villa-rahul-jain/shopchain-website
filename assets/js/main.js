@@ -1,3 +1,13 @@
+nav = document.querySelector(".navigation");
+toggleBtn = document.querySelector(".toggle-btn");
+
+toggleBtn.addEventListener("click", function () {
+  
+  nav.classList.toggle("collapse-toggle");
+});
+
+
+
 $(document).ready(function () {
     $(".owl-two").owlCarousel({
       loop: true,
@@ -21,6 +31,9 @@ $(document).ready(function () {
         768: {
           items: 4,
         },
+        800: {
+          items: 3,
+        },
         1000: {
           items: 4,
         },
@@ -42,6 +55,9 @@ $(document).ready(function () {
       responsive: {
         0: {
           items: 1,
+        },
+        320: {
+          items: 2,
         },
         600: {
           items: 3,
@@ -103,6 +119,9 @@ $(document).ready(function () {
           items: 2,
         },
         768: {
+          items: 3,
+        },
+        900:{
           items: 4,
         },
         1000: {
@@ -148,3 +167,6 @@ $(document).ready(function () {
   
     
   });
+
+
+  
