@@ -325,6 +325,7 @@ img {
   padding-left: 20px;
   border: none;
   outline: none;
+  border-radius: 10px;
 }
 
 .hero .hero-section .search-food .order-now-btn{
@@ -335,6 +336,7 @@ img {
   font-weight: 600;
   outline: none;
   box-shadow: 0 15px 20px rgba(255, 0, 0, 0.8);
+  border-radius: 10px;
 }
 
 .hero .hero-section .order-food-online{
@@ -342,6 +344,7 @@ img {
   background:radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(173,80,167,1) 81%, rgba(252,70,107,1) 100%);
   margin-top: 20px;
   font-size: 18px;
+  border-radius: 10px;
   animation: online-move;
   animation-duration: 10s;
   animation-iteration-count: infinite;
