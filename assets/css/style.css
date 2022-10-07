@@ -108,9 +108,9 @@ img {
     --------main Section_-----------
     ++++++++++++++++++++++++++++++++++++++ */
 .main-section {
-  min-height: 100vh;
   background: url("../img/pablo-merchan-montes-Orz90t6o0e4-unsplash.jpg");
   background-size: cover;
+  height: 100vh;
 }
 
 /* +++++++++++++++++++++++++++++++++++++++
@@ -270,6 +270,103 @@ img {
   text-transform: uppercase;
   border: 1px solid var(--light-red);
 }
+
+
+
+/* +++++++++++++++++++++++++++++++++++++++
+    --------hero Section_-----------
+    ++++++++++++++++++++++++++++++++++++++ */
+
+
+.hero{
+  min-height: 100vh;
+  position: relative;
+  background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5));
+}
+
+.hero .back-video{
+  position:  absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.hero .hero-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--white);
+}
+
+.hero .hero-section .hero-heading{
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.hero .hero-section .hero-paragraph{
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.hero .hero-section span{
+  font-size: 25px;
+  color: var(--light-red);
+  font-weight: 600;
+  margin-bottom: 10px;
+  text-shadow: 0 15px 20px rgba(255, 0, 0, 0.8);
+
+}
+
+.hero .hero-section .search-food input{
+  height: 40px;
+  width: 600px;
+  padding-left: 20px;
+  border: none;
+  outline: none;
+}
+
+.hero .hero-section .search-food .order-now-btn{
+  background: var(--light-red);
+  border: none;
+  color: var(--white);
+  padding: 8px 20px;
+  font-weight: 600;
+  outline: none;
+  box-shadow: 0 15px 20px rgba(255, 0, 0, 0.8);
+}
+
+.hero .hero-section .order-food-online{
+  padding: 15px 30px ;
+  background:radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(173,80,167,1) 81%, rgba(252,70,107,1) 100%);
+  margin-top: 20px;
+  font-size: 18px;
+  animation: online-move;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  
+}
+
+@keyframes online-move {
+  0%{
+    transform: translateX(-200px);
+  }
+  100%{
+    transform: translateX(200px);
+ 
+  }
+}
+
+
+.hero .hero-section .order-food-online p{
+  margin: 0;
+}
+
+
+
+
 
 /* +++++++++++++++++++++++++++++++++++++++
     --------product Section_-----------
@@ -679,9 +776,9 @@ img {
 
 @media (max-width: 768px) {
 
-  .nav-background{
+  /* .nav-background{
     background: var(--light-red);
-  }
+  } */
   .navigation, .navigation .nav-linkss{
     display: block;
   }
